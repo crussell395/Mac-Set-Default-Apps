@@ -148,6 +148,18 @@ dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
 [[package]]
+name = "pyfakefs"
+version = "5.2.2"
+description = "pyfakefs implements a fake file system that mocks the Python file system modules."
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pyfakefs-5.2.2-py3-none-any.whl", hash = "sha256:92913ad26f2661b81080178421f00aa712d799e18e4b5bb2fcba128f435dd6a7"},
+    {file = "pyfakefs-5.2.2.tar.gz", hash = "sha256:0dcfb74e047e20b0755beeec3e3c0d7fc6f5029cdbb0cbf83d88431ee75b191d"},
+]
+
+[[package]]
 name = "pytest"
 version = "7.3.1"
 description = "pytest: simple powerful testing with Python"
@@ -204,4 +216,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "174d56ccb09fe0432d629446b7b4d55e93c290964eb2d7a7da523ce853b45952"
+content-hash = "82b12d5a4e8edd6f0e3197e2fc539e0d8e87406e6238e499ef0da35088fe58a0"

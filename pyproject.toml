@@ -3,8 +3,9 @@ name = "mac-set-default-apps"
 version = "2.0.0"
 description = "MSDA provides an easy way to silently change the default applications used by macOS. There are no pop-ups or prompts and, even better, it works for Google Chrome!"
 authors = ["David G Rosenberg <targendaz2@me.com>"]
-license = "LICENSE"
+license = "MIT"
 readme = "README.md"
+repository = "https://github.com/targendaz2/Mac-Set-Default-Apps"
 packages = [{include = "msda"}]
 
 [tool.poetry.scripts]
@@ -12,12 +13,13 @@ msda = "msda.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-typer = "^0.7.0"
 pydantic = "^1.10.7"
+typer = "^0.7.0"
 
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^2.0.2"
+pyfakefs = "^5.2.2"
 pytest = "^7.3.1"
 
 [build-system]
