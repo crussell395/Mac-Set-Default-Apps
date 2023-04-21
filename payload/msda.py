@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/local/bin/managed_python3
 
 """\
 Directly modifies launchservices plists to set default file associations in macOS.
@@ -36,7 +36,7 @@ USER_HOMES_LOCATION = '/Users' # Where users' home directories are located
 __author__ = 'David G. Rosenberg'
 __copyright__ = 'Copyright (c), Mac Set Default Apps'
 __license__ = 'MIT'
-__version__ = '1.3.1'
+__version__ = '1.3.1.20230420'
 __email__ = 'dgrosenberg@icloud.com'
 
 
